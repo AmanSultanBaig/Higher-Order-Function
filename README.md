@@ -8,21 +8,40 @@ the `map()` method calls the provided function once for each element in an array
 ## Note: 
 This method does not change the original array.
 
+### Syntax
+```ruby 
+array.map(function(currentValue, index, arr), thisValue)
+```
+
 ## 2: filter()
 
 The `filter()` method creates an array filled with all array elements that pass a test (provided as a function).
 ## Note:
 This method does not change the original array.
 
+### Syntax 
+```ruby 
+array.filter(function(currentValue, index, arr), thisValue)
+```
+
 ## 3: sort()
 
 By default, the `sort()` function sorts values as strings.
+
+### Syntax 
+```ruby 
+array.sort(function (a, b))
+```
 
 ## 4: forEach()
 
 The `forEach()` method calls a function once for each element in an array, in order.
 ## Note: 
 The function is not executed for array elements without values.
+### Syntax 
+```ruby 
+array.forEach(function(currentValue, index, arr), thisValue)
+```
 
 ## 5: reduce()
 
